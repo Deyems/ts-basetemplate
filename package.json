@@ -59,7 +59,7 @@
     "src/**/*.{ts,js,json}": "npm run format",
     "tests/**/*.{ts,js,json}": "npm run format"
   },
-  "author": "Edwin Hernandez",
-  "repository": "edwinhern/express-typescript-2024",
+  "author": "Adeyemi Sola",
+  "repository": "github.com:Deyems/ts-basetemiplate",
   "license": "ISC"
 }

@@ -4,7 +4,7 @@ import { app, logger } from '@src/server';
 const port = getPort();
 
 const server = app.listen(port, () => {
-  logger.info(`Server listening on port ${port}`);
+  logger.info(`Server is listening on port ${port}`);
 });
 
 const onCloseSignal = () => {

@@ -1,0 +1,21 @@
+
+# @POST 
+@template-port=8080
+
+###
+GET http://localhost:{{template-port}}/users
+content-type: application/json
+
+###
+GET http://localhost:{{template-port}}/swagger.json
+content-type: application/json
+
+###
+GET http://localhost:{{template-port}}
+content-type: application/json
+
+# {
+#     "sku": {{item-sku}},
+#     "name": "{{item-name}}",
+#     "price": {{item-price}}
+# }
